@@ -1,0 +1,139 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.orange-color {
+    color: #fec5bb;
+}
+
+.flex-container {
+    display: flex;
+
+}
+
+.left-side {
+    width:50%;
+    padding-left: 8%;
+    margin-top: 170px;
+}
+
+
+.right-side {
+    width: 50%;
+    padding-left: 7%;
+    margin-top: 7%;
+}
+
+.right-side img {
+    margin-top: 100px;
+    width: 60%;
+    border-radius: 50%;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(#fec5bb, #fcd5ce);
+    padding: 10px 40px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: #000;
+    font-weight: 400;
+    margin-top: 10px;
+
+}
+
+.history-main .button{
+    text-decoration: none;
+    background-image: linear-gradient(#00b4d8, #48cae4);
+    padding: 10px 40px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    margin-top: 10px; 
+}
+
+.section-top {
+    background-image: url(img/banner_tpp.png);
+    background-repeat: no-repeat;
+}
+
+
+.history-main {
+
+    margin-top: 150px;
+    background-image: url(img/b1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.history-left {
+    width: 50%;
+    margin-top: 7%;
+    padding-left: 7%;
+}
+
+.history-left img {
+    width: 70%;    
+    border-radius: 50%
+}
+
+.history-right {
+    width: 50%;
+    margin-left: 7%;
+    padding: 6%;
+
+
+}
+.history-right a {
+    margin-top: 2%;
+}
+
+.exp h1{
+    text-align:center ;
+    margin-bottom:100px;
+}
+.exp {
+    margin-bottom: 100px;
+    margin-top: 150px;
+    background-image: url(img/bg2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.exp-left {
+    width: 50%;
+    margin-left: 4%;
+    margin-right: 2%;
+    padding: 40px 40px 70px 40px;
+    box-shadow: 10px 10px 40px #fcd5ce;
+    border-left: 7px solid #F97A61;
+    border-radius: 4px;
+}
+
+.exp-right {
+    width: 50%;
+    margin-left: 2%;
+    margin-right: 4%;
+    padding: 40px 40px 70px 40px;
+    box-shadow: 10px 10px 40px #fdbb2d;
+    border-left: 7px solid #fdbb2d;
+    border-radius: 4px;
+}
+
+.footer-copyright{
+  text-align:center;
+}
